@@ -27,7 +27,7 @@ const UserTable = () => {
               <tr>
                 <td>{ad.campaignName}</td>
                 <td>
-                  <a href={`${ad.linkURL}`} target="_blank">
+                  <a href={`${ad.linkURL}`}>
                     <img src={`${ad.imageURL}`} alt={`${ad.campaignName}`} />
                   </a>
                 </td>
